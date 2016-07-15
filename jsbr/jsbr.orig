@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/jsbr.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <title>JSConf BR 2014</title>
+  </head>
+  <body>
+    <div id="menu">
+      <center>
+      <nav>
+        <ul>
+          <li><a href="#">Tickets</a></li>
+          <li><a href="#">Speakers</a></li>
+          <li><a href="#">Schedule</a></li>
+          <li><a href="#">Location</a></li>
+          <li><a href="#">Call For Papers</a></li>
+          <li><a href="#">Sponsors</a></li>
+          <li><a href="#">Code Of Conduct</a></li>
+        </ul>
+      </nav>
+      <center>
+    </div>
+    <div id="splash">
+      <div class="logo breakout-box">
+          <img src="images/jsconfbr.png" alt="JavaScript Logo">
+          <h1>JSConf BR 2014</h1>
+          <h2>April 26 / Fortaleza, Brazil</h2>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="section">
+        <div class="row" id="tickets">
+          <h1>Tickets</h1>
+          <p>Super Early Bird is opened!</p>
+          <a>Buy JSConf BR Tickets</a>
+        </div>
+      </div>
+      <div class="section spkrs">
+        <div class="row">
+          <h1>Speakers</h1>
+        </div>
+        <div class="row spkrs">
+          <div class="speakers">
+          <div class="snapshot">
+            <figure>
+              <img src="images/gregor_martynus.jpg">
+              <figcaption>
+                <h2><a href="#">Gregor Martynus</a></h2>
+                <p>Offline First, Made Easy</p>
+              </figcaption>
+            </figure>
+          </div><!--
+          --><div class="snapshot">
+            <figure>
+              <img src="images/lynn_fisher.jpg">
+              <figcaption>
+                <h2><a href="#">Lynn Fisher</a></h2>
+                <p>Developers as Intentional Designers</p>
+              </figcaption>
+            </figure>
+          </div><!--
+          --><div class="snapshot">
+            <figure>
+              <img src="images/eduardo_shiota.jpg">
+              <figcaption>
+                <h2><a href="#">Eduardo Shiota</a></h2>
+                <p>Rock the browser like it's 1983</p>
+              </figcaption>
+            </figure>
+          </div><!--
+          --></div>
+        </div><!--
+        --><div class="row"><!--
+        --><div class="speakers"><!--
+        --><div class="snapshot">
+            <figure>
+              <img src="images/francis_gulotta.jpg">
+              <figcaption>
+                <h2><a href="#">Francis Gulotta</a></h2>
+                <p>Full Stack Firmata</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="snapshot">
+            <figure>
+              <img src="images/tim_caswell.jpg">
+              <figcaption>
+                <h2><a href="#">Tim Caswell</a></h2>
+                <p>The JS-Git Journey</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="snapshot">
+            <figure>
+              <img src="images/dave_furfero.jpg">
+              <figcaption>
+                <h2><a href="#">Dave Furfero</a></h2>
+                <p>Close Enough: Using JavaScript to Emulate the Abstract Expressionist Masterworks of Chuck Close</p>
+              </figcaption>
+            </figure>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="speakers">
+          <div class="snapshot">
+            <figure>
+              <img src="images/ju_goncalves.jpg">
+              <figcaption>
+                <h2><a href="#">Ju Goncalves</a></h2>
+                <p>You, programming languages and the browser</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="snapshot">
+            <figure>
+              <img src="images/tim_park.jpg">
+              <figcaption>
+                <h2><a href="#">Tim Park</a></h2>
+                <p>JavaScript for all the things!</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="snapshot">
+            <figure>
+              <img src="images/david_dias.jpg">
+              <figcaption>
+                <h2><a href="#">David Dias</a></h2>
+                <p>Securing Node apps, by the community and for the community</p>
+              </figcaption>
+            </figure>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="speakers">
+          <div class="snapshot">
+            <figure>
+              <img src="images/bernard_kobos.jpg">
+              <figcaption>
+                <h2><a href="#">Bernard Kobos</a></h2>
+                <p>Appium</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="snapshot">
+            <figure>
+              <img src="images/john_paul.jpg">
+              <figcaption>
+                <h2><a href="#">John Paul</a></h2>
+                <p>ES6 on the frontend, in the real world</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="snapshot">
+            <figure>
+              <img src="images/eric_mann.jpg">
+              <figcaption>
+                <h2><a href="#">Eric Mann</a></h2>
+                <p>Monkeys in the Machine</p>
+              </figcaption>
+            </figure>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="row">
+          <h1>Schedule</h1>
+        </div>
+        <div class="schedule">
+          <ul>
+            <li><time>8:00</time>
+              <div class=caption>
+              <h2> Registration</h2>
+              </div>
+            </li>
+            <li><time>8:50</time>
+              <div class="caption">
+                <h2> Welcome</h2>
+              </div>
+            </li>
+            <li><time>9:00</time>
+              <div class="caption">
+                <h2> Developers as Intentional Designers</h2>
+                <h3><a href="#">Lynn Fisher</a></h3>
+              </div>
+              <img src="images/lynn_fisher.jpg" alt="lynn fisher">
+            </li>
+            <li><time>9:30</time>
+              <div class="caption">
+                <h2> Close Enough: Using JavaScript to Emulate the Abstract Expressionist Masterworks of Chuck Close</h2>
+                <h3><a href="#">Dave Furfero</a></h3>
+              </div>
+              <img src="images/dave_furfero.jpg" alt="dave_furfero.jpg">
+            </li>
+            <li><time>9:00</time>
+              <div class="caption">
+                <h2> The JS-Git Journey</h2>
+                <h3><a href="#">Tim Caswell</a></h3>
+              </div>
+              <img src="images/tim_caswell.jpg" alt="tim_caswell">
+            </li>
+            <li><time>10:00</time>
+              <div class=caption>
+              <h2> Coffee-Break</h2>
+              </div>
+            </li>
+            <li><time>11:00</time>
+              <div class="caption">
+                <h2> Offline First, Made Easy</h2>
+                <h3><a href="#">Gregor Martynus</a></h3>
+              </div>
+              <img src="images/gregor_martynus.jpg" alt="gregor_martynus">
+            </li>
+            <li><time>11:30</time>
+              <div class="caption">
+                <h2> Appium</h2>
+                <h3><a href="#">Bernard Kobos</a></h3>
+              </div>
+              <img src="images/bernard_kobos.jpg" alt="bernard_kobos">
+            </li>
+            <li><time>12:00</time>
+              <div class="caption">
+                <h2> Monkeys in the Machine</h2>
+                <h3><a href="#">Eric Mann</a></h3>
+              </div>
+              <img src="images/eric_mann.jpg" alt="eric_mann">
+            </li>
+            <li><time>12:30</time>
+              <div class="caption">
+                <h2> Lunch</h2>
+              </div>
+            </li>
+            <li><time>14:30</time>
+              <div class="caption">
+                <h2> JavaScript for all the things!</h2>
+                <h3><a href="#">Tim Park</a></h3>
+              </div>
+              <img src="images/tim_park.jpg" alt="tim_park">
+            </li>
+            <li><time>15:00</time>
+              <div class="caption">
+                <h2> You, programming languages and the browser</h2>
+                <h3><a href="#">Ju Goncalves</a></h3>
+              </div>
+              <img src="images/ju_goncalves.jpg" alt="ju_goncalves">
+            </li>
+            <li><time>15:30</time>
+              <div class="caption">
+                <h2>Securing Node apps, by the community and for the community</h2>
+                <h3><a href="#">David Dias</a></h3>
+              </div>
+              <img src="images/david_dias.jpg" alt="david_dias">
+            </li>
+            <li><time>16:00</time>
+              <div class="caption">
+                <h2>Coffee Break</h2>
+              </div>
+            </li>
+            <li><time>16:30</time>
+              <div class="caption">
+                <h2>Full Stack Firmata</h2>
+                <h3><a href="#">Francis Gulotta</a></h3>
+              </div>
+              <img src="images/francis_gulotta.jpg" alt="francis_gulotta">
+            </li>
+            <li><time>17:00</time>
+              <div class="caption">
+                <h2>ES6 on the frontend, in the real world</h2>
+                <h3><a href="#">John Paul</a></h3>
+              </div>
+              <img src="images/john_paul.jpg" alt="john_paul">
+            </li>
+            <li><time>17:30</time>
+              <div class="caption">
+                <h2>Rock the browser like it's 1983</h2>
+                <h3><a href="#">Eduardo Shiota</a></h3>
+              </div>
+              <img src="images/eduardo_shiota.jpg" alt="eduardo_shiota">
+            </li>
+            <li><time>18:00</time>
+              <div class="caption">
+                <h2>Family Photo</h2>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="row">
+          <h1>Location</h1>
+        </div>
+        <div class="row location">
+          <p>
+            <b>Hotel Vila Galé Fortaleza</b>
+            <br>
+            Av. Dioguinho, 4189 - Praia do Futuro. Fortaleza/CE - Brazil
+          </p>
+          <p>
+            The Vila Galé Fortaleza Hotel is located on the beach only 10 minutes away from the renowned Avenida Beira-Mar, in Fortaleza.
+            <br>
+This hotel in Fortaleza features a Beach Tent as well where you can enjoy the lovely weather of North-eastern Brazil, being entitled to a bar service and all the facilities that’ll make it a great afternoon and a perfect holiday in Brazil.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="row">
+          <h1>Call for Papers</h1>
+        </div>
+        <div class="row papers">
+          <p>
+            We are inviting the JavaScript community to submit talks for the upcoming JSConf BR. If you know someone who may deliver an interesting talk, please let us know and we'll contact them.
+          </p>
+          <p>
+            Our talk selection process favors content (blind selection process); We want our community to be inclusive!
+          </p>
+          <p>
+            If you get selected as a speaker, here's what you get:
+          </p>
+          <p>
+            We cover the flights and your stay at a nice Fortaleza hotel for the days of the conference. If your employer can cover your travel and hotel, we are more than happy to list them as sponsors! The money we save will be used to make the conference even better.
+          </p>
+          <p>
+            30 minutes to present in front of the greatest audience ever: the JSConf family!
+          </p>
+          <p><a href="#">Call for papers ended :(</a></p>
+          <p>
+          Let us know if you need help with anything that is not listed here, we'll be more than happy to help.
+        </p>
+          <p>
+          We value having a safe, family-friendly, harassment-free environment, check our <span>code of conduct</span>.
+        </p>
+        <p>
+          PS: crazy topics get extra points ;)
+        </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="row">
+        <h1>Sponsors</h1>
+        </div>
+        <div class="container">
+        <div class="row">
+          <h3>Platinum</h3>
+        </div>
+        <div class="row sponsors">
+          <a href="#"><img src="images/microsoft.png" alt="microsoft logo"></a>
+          <a href="#"><img src="images/booking.com.png" alt="booking.com logo" /></a>
+          <a href="#"><img src="images/casamagalhaes.png" alt="casamagalhaes logo" /></a>
+        </div>
+        <div class="row">
+          <h3>Gold</h3>
+        </div>
+        <div class="row sponsors gold-sponsor">
+          <a href="#"><img src="images/globo.png" alt="globo logo" /></a>
+          <a href="#"><img src="images/mozilla.png" alt="mozilla logo" /></a>
+        </div>
+        <div class="row sponsors gold-sponsor">
+          <a href="#"><img src="images/caelum.png" alt="caelum logo" /></a>
+          <a href="#"><img src="images/unigex.png" alt="unigex logo" /></a>
+        </div>
+        <div class="row sponsors gold-sponsor">
+          <a href="#"><img src="images/saucelabs.png" alt="sauce labs logo" /></a>
+          <a href="#"><img src="images/andyet.png" alt="and yet logo" /></a>
+        </div>
+        <div class="row sponsors gold-sponsor">
+          <a href="#"><img src="images/digitalocean.png" alt="Digital Ocean logo" /></a>
+        </div>
+        <div class="row">
+          <h3>Silver</h3>
+        </div>
+        <div class="row sponsors silver-sponsor">
+          <a href="#"><img src="images/sagarana.png" alt="sagarana logo" /></a>
+          <a href="#"><img src="images/unum.png" alt="unum logo" /></a>
+          <a href="#"><img src="images/grupo_fortes.png" alt="grupo fortes logo" /></a>
+        </div>
+        <div class="row">
+          <h3>Support</h3>
+        </div>
+        <div class="row sponsors support-sponsor">
+          <a href="#"><img src="images/alura.png" alt="alura logo" /></a>
+          <a href="#"><img src="images/casadocodigo.png" alt="Casa Do Coddigo logo" /></a>
+          <a href="#"><img src="images/penton.png" alt="penton logo" /></a>
+          <a href="#"><img src="images/10up.png" alt="10 up logo" /></a>
+        </div>
+      </div>
+      </div>
+
+      </div>
+    </div>
+    <div id="people" class="section">
+      <h1>Presented by:</h1>
+      <div class="black-bar">
+        <h2>JSConf BR Team</h2>
+        <p>
+          We are the team working hard to make this conference epic.
+        </p>
+        <p>
+          Meet the team:
+          <a href="#">Douglas Campos</a>,
+          <a href="#">Calebe Campos</a>,
+          <a href="#">Christiano Milfont</a> and
+          <a href="#">Henrique Gogó</a>.
+        </p>
+        <p>
+          <a class="button">@jsconfbr</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
